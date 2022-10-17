@@ -497,6 +497,47 @@ img {
   margin-bottom: 9px;
 }
 
+/* Footer Join Us */
+.join-us-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-bcg-primary);
+}
+
+.join-us-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  gap: 10px;
+}
+
+.join-us {
+  margin-left: 70px;
+}
+
+.join-us-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.join-us-icon {
+  fill: var(--color-bcg-primary);
+}
+
+.join-us-link:hover,
+.join-us-link:focus {
+    background-color: var(--color-brand);
+}
+
 /* Портфоліо */
 .cases {
   padding: 0;
@@ -566,6 +607,15 @@ img {
 
 .cases-links {
   text-decoration: none;
+}
+
+.cases-links {
+  display: block;
+}
+
+.cases-links:hover,
+.cases-links:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .description-title {
