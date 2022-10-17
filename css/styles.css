@@ -154,10 +154,9 @@ img {
   color: var(--color-brand);
 }
 
-.address-icon {
+.icon-address {
   margin-right: 10px;
   fill: var(--color-brand);
-  display: flex;
 }
 
 /* Секція 1 (Hero) */
