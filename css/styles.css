@@ -149,20 +149,37 @@ img {
   display: flex;
 }
 
+.address-icon {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--color-primary);
+}
+
+.address-icon:hover,
+.address-icon:focus {
+  color: var(--color-brand);
+}
+
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--color-brand);
 }
 
-.icon-address {
-  margin-right: 10px;
-  fill: var(--color-brand);
-}
+
 
 /* Секція 1 (Hero) */
 .hero {
-  background-color: var(--color-bcg-secondary);
-  padding: 200px 0px 280px 0px;
+  padding: 200px 0px 200px 0px;
+  text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-title {
