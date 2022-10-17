@@ -154,9 +154,10 @@ img {
   color: var(--color-brand);
 }
 
-.icon-email {
+.address-icon {
   margin-right: 10px;
-  fill: var(--color-primary)
+  fill: var(--color-brand);
+  display: flex;
 }
 
 /* Секція 1 (Hero) */
