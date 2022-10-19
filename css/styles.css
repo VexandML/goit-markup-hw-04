@@ -20,11 +20,12 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 /* Global Sizing */
 h1, h2, h3, h4, h5, h6, ul, p {
-    margin-top: 0;
+    margin: 0;
 }
 
 p {
@@ -41,6 +42,10 @@ img {
   height: auto;
 }
 
+section {
+  padding: 0 0 94px 0;
+}
+
 /* HEADER STARTS */
 /* HEADER GLobal */
 .header {
@@ -52,7 +57,7 @@ img {
 
 .container {
   max-width: 1200px;
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -147,6 +152,7 @@ img {
   text-decoration: none;
   padding: 32px 0;
   display: flex;
+  align-items: center;
 }
 
 .address-icon {
@@ -279,10 +285,6 @@ img {
 /* Секція 3 (Чим ми займаємося) */
 .section-title-whatwedo {
   margin-bottom: 50px;
-}
-
-.section what-we-do {
-  padding: 0;
 }
 
 .section-title-hidden {
@@ -441,6 +443,11 @@ img {
 }
 
 /* Footer */
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
+
 .foot {
   padding: 0;
   margin-bottom: 20px;
